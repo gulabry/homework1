@@ -1,6 +1,6 @@
 /* Google web fonts 'Open Sans' (italic and normal) and 'Kite One' */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Kite+One););
+@import url(http://fonts.googleapis.com/css?family=Kite+One);
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
@@ -8,55 +8,176 @@
 @import url(reset.css);
 
 body {
-    background-image: url(../img/texture-light.png);
-    background-repeat: repeat;
-    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/background-main.png);
+    font-family: 'Kite One', sans-serif;
     font-size: 18px;
     padding: 10px;
 }
 
 .logo{
-	float: left;
-	padding: 10px;
+	text-align: center;
+	width: 524px;
 }
 
 header {
-	font-family: 'Kite One';
+	padding: 15px;
+	line-height: 154px;
 }
 
+header img{
+	float: left;
+}
+
+nav {
+	text-align: center;
+	margin: 10px;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	color: red;
+}
+
+nav a: hover {
+	text-decoration: underline;
+}
+
+.storeInfo{
+	font-size: 25px;
+}
+
+.storeInfo p {
+	padding: 5px;
+}
+
+.context > img {
+	margin: 0 auto;
+}
 
 footer{
 	font-size: 20px;
 	font-style: italic;
 	text-align: center;
+	clear: both;
+}
+
+footer p {
+	padding: 5px;
+}
+
+.storeInfo {
+	text-align: center;
+	clear: both;
 }
 
 h1 {
-	font-family: 'Open Sans';
-	font-size: 50px;
-	color: #0000000;
-	text-align: left;
+	font-size: 30px;
+	color: #FF0000;
+	text-align: right;
 }
 
-p{
-	font-size: 20px;
-	font-family: 'Kite One';
-
+.menu h1 {
+	text-align: center;
+	color: blue;
+	font-family: 'Roboto Slab';
+	padding-bottom: 10px;
 }
 
-.link{
+.menu p {
+	font-family: 'Libre Baskerville';
+	color: 
+}
+
+div a {
 	text-decoration: none;
 }
-.link:hover{
+
+div a:hover{
 	text-decoration: underline;
+	color: blue;
 }
 
 .menu {
 	font-family: 'Open Sans';
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu img {
+	float: right;
+	width: 550px;
+	padding: 10px;
 }
 
 .inquire{
 	font-size: 30px;
-	font-family: 'Kite One';
 	text-align: center;
 }
+
+.pizza {
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+
+}
+
+body h1 {
+	text-align: center;
+	padding-top: 15px;
+	color: green;
+}
+
+@media screen and (max-width: 767px) {
+    .col-md-6 {
+    	margin-top: 20px;
+    }
+    body {
+    	font-size: 12px;
+    	width: 50%;
+    }
+    header{
+    	font-size: 12px;
+    	line-height: 25px;
+    }
+    header img {
+    	display: none;
+    }
+
+    .lowerMenu {
+	display: block;
+	font-size: 12px;
+	font-family: 'Open Sans'
+}
+
+}
+
+*:focus{
+	background-color: black;
+}
+
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+
+.lowerMenu {
+	display: block;
+	text-align: center;
+	float: left;
+	font-family: 'Open Sans'
+}
+
+.col-md-6{
+	padding-bottom: 50px;
+}
+
+
+
+
