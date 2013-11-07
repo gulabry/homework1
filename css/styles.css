@@ -8,7 +8,7 @@
 @import url(reset.css);
 
 body {
-    background-image: url(../img/background-main.png);
+    background-image: url(../img/brushed_@2X.png);
     font-family: 'Kite One', sans-serif;
     font-size: 18px;
     padding: 10px;
@@ -21,16 +21,24 @@ body {
 
 header {
 	padding: 15px;
-	line-height: 154px;
 }
 
 header img{
 	float: left;
 }
 
+h2 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 15px;
+
+}
+
 nav {
 	text-align: center;
-	margin: 10px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+
 }
 
 nav li {
@@ -60,11 +68,18 @@ nav a: hover {
 	margin: 0 auto;
 }
 
+.all-Header p {
+	margin: 10px;
+	text-align: center;
+
+}
+
 footer{
 	font-size: 20px;
 	font-style: italic;
 	text-align: center;
 	clear: both;
+	padding: 15px;
 }
 
 footer p {
@@ -84,14 +99,14 @@ h1 {
 
 .menu h1 {
 	text-align: center;
-	color: blue;
-	font-family: 'Roboto Slab';
+	color: purple;
+	font-family: 'Kite One';
 	padding-bottom: 10px;
+	font-size: 45px;
 }
 
 .menu p {
-	font-family: 'Libre Baskerville';
-	color: 
+	font-size: 30px;
 }
 
 div a {
@@ -125,7 +140,14 @@ div a:hover{
 	margin: 0 auto;
 	display: block;
 	padding: 10px;
+	
 
+}
+
+.main-photo {
+	margin: 0 auto;
+	display: block;
+	width: 80%;
 }
 
 body h1 {
@@ -140,21 +162,59 @@ body h1 {
     }
     body {
     	font-size: 12px;
-    	width: 50%;
+    	
     }
     header{
-    	font-size: 12px;
+    	font-size: 10px;
     	line-height: 25px;
     }
     header img {
     	display: none;
     }
 
+    .all-Header{
+    	font-size: 10px;
+    }
+
     .lowerMenu {
 	display: block;
 	font-size: 12px;
-	font-family: 'Open Sans'
-}
+	font-family: 'Open Sans'	
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	.all-Header {
+		font-size: 20px;
+	}
+
+	nav li{
+		font-size: 20px;
+		width: 70%;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	footer {
+		font-size: 15px;
+	}
+
+	.menu p {
+	font-size: 15px;
+	}
+
+	.oven {
+		display: none;
+	}
+
+	.menu h1 {
+		font-size: 20px;
+	}
+
 
 }
 
@@ -177,6 +237,36 @@ iframe{
 .col-md-6{
 	padding-bottom: 50px;
 }
+
+.pizza-menu {
+	text-align: center;
+}
+
+.drinks-menu {
+	text-align: center;
+	margin: 5px;
+
+}
+
+.drinks {
+	margin: 10px;
+}
+
+.desserts {
+	margin: 10px;
+}
+
+.desserts-menu {
+	text-align: center;
+}
+
+.video {
+	padding: 20px;
+}
+
+
+
+
 
 
 
